@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.fmp-projects/fitness-ai-connector",
+  "title": "Fitness AI Connector",
+  "description": "Talk to your Garmin data in Claude and ChatGPT. Hosted MCP server built on the Garmin Health API with OAuth sign-in — no password sharing.",
+  "websiteUrl": "https://fmp.it.com/en/fitness-ai/",
+  "repository": {
+    "url": "https://github.com/fmp-projects/fitness-ai-connector",
+    "source": "github"
+  },
+  "version": "2.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://garmin-mcp-nuqd.onrender.com/mcp"
+    }
+  ]
+}
