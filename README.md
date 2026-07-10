@@ -25,6 +25,21 @@ Your Garmin data syncs automatically via the Garmin Health API webhook/pull mode
 | Long-term trends | Weekly averages, directional changes, "am I improving?" comparisons |
 | Profile & account | Connection status, VO2max, fitness age, subscription management |
 
+## Tools
+
+The connector exposes 10 MCP tools:
+
+- **get_user_profile** — Garmin connection status, subscription tier, VO2max, and fitness age.
+- **get_health_summary** — Daily snapshot: steps, calories, heart rate, sleep stages & score, stress / Body Battery, HRV.
+- **get_activities** — List activities (runs, rides, swims) with pace, distance, calories, and heart rate per activity.
+- **get_activity_details** — Pace zones, HR zone distribution, lap splits, HR drift, and training effect for one activity.
+- **get_body_composition** — Weight, BMI, body fat %, muscle mass, bone mass, body water % (smart scale required).
+- **get_trends** — Weekly averages, directional changes, and pattern detection ("am I improving?").
+- **refresh_data** — Re-fetch a range of Garmin data; dates before your connection date are skipped.
+- **refetch_activity_detail** — Request recovery of a missing activity detail.
+- **manage_subscription** — Billing portal and account deletion (30-day recovery).
+- **acknowledge_garmin_source** — Garmin brand attribution shown when data is first presented.
+
 ## Where to get it
 
 - **ChatGPT**: search "Fitness AI Connector" in the Apps Directory (works with Free ChatGPT accounts via our Custom GPT as well)
