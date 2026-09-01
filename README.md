@@ -2,7 +2,7 @@
 
 **Talk to your Garmin data in Claude and ChatGPT.**
 
-Connect your Garmin health and fitness data to Claude and ChatGPT through the official Garmin Health API. Hosted remote MCP server (Streamable HTTP) with OAuth 2.0 sign-in — your Garmin password is never shared. 12 tools: daily health summary (sleep, HRV, stress, Body Battery), activities with lap and time-series analysis, body composition, menstrual cycle tracking, trends, and on-demand data refresh. 10,000+ users as of August 2026. Free tier available.
+Connect your Garmin health and fitness data to Claude and ChatGPT through the official Garmin Health API. Hosted remote MCP server (Streamable HTTP) with OAuth 2.0 sign-in — your Garmin password is never shared. 12 tools: daily health summary (sleep, HRV, stress, Body Battery), activities with lap and time-series analysis, body composition, menstrual cycle tracking, trends, and on-demand data refresh. 15,000+ users as of September 2026. Free tier available.
 
 🌐 Website: https://fmp.it.com/en/fitness-ai/
 
