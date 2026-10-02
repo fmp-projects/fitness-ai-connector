@@ -45,7 +45,7 @@ The connector exposes 12 MCP tools:
 
 ## Where to get it
 
-- **ChatGPT**: search "Fitness AI Connector" in the Apps Directory (works with Free ChatGPT accounts via our Custom GPT as well)
+- **ChatGPT**: search "Fitness AI Connector" in the Apps Directory
 - **Claude**: add as a custom connector — MCP endpoint: `https://garmin-mcp-nuqd.onrender.com/mcp`
 - Details and setup guides: https://fmp.it.com/en/fitness-ai/
 
@@ -59,9 +59,9 @@ There are several ways to connect Garmin data to AI assistants. An honest compar
 | Authentication | OAuth on Garmin's page; no password shared | Your Garmin email + password | Your Garmin email + password stored by operator |
 | Setup | None (hosted) | Local install (Python/Node) | None (hosted) |
 | Works on mobile / web chat | Yes | Desktop only (local process) | Yes |
-| Historical data | From connection date onward (Garmin API policy) | Full history | Full history |
+| Historical data | From connection date onward; Basic can import a Garmin data export (up to 10 years) | Full history | Full history |
 | Tool count | 12 focused tools | Up to 110+ tools | Varies |
-| Price | Free tier; Basic $3/month | Free (self-managed) | Free |
+| Price | Free tier; Basic $3/month plus applicable tax | Free (self-managed) | Free |
 | Continuity risk | Contract-backed API | Breaks when Garmin changes internal auth | Breaks when Garmin changes internal auth |
 
 Self-hosted OSS is a great choice for developers who want maximum tool coverage and full local control. Fitness AI Connector is built for people who want a no-setup, no-password-sharing option that works in the ChatGPT and Claude apps, backed by the Garmin Health API.
